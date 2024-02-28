@@ -2,21 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/estilo.css">
-    <title>calculadora</title>
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.css"> <!--Estou ligando o arquivo CSS ao HTML-->
+    <title>Calculadora - IMC</title>
 </head>
 <body>
     <section class="container">
         <h1>Calculadora IMC</h1>
-        <from id="formulario">
-            <label for="peso" name="peso" id="peso">Peso</label>
-            <input type="text" id="peso">
-            <label for="altura" name="altura" id="altura">altura</label>
-            <input type="text" id="altura">
-            <button type="submit">Enviar</button>  
-                     
-        </from>
+        <form id="formulario"> <!--Estou criando um formulário-->
+           <label for="peso" name="peso" id="peso-label">Peso</label>
+           <input type="text" id="peso">
+           <label for="altura" name="altura" id="altura-label">Altura</label>
+           <input type="text" id="altura">
+           <button type="submit">Enviar</button>
+        
+        </form>
+        <div id="resultado"></div> <!--vai mostrar a classificaçao do imc na tela-->
     </section>
+
+    <script src="js/calculadora.js"></script>
+
 </body>
-</html>

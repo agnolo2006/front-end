@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -16,8 +17,8 @@ body {
 
 .container {
     max-width: 640px;
-    background-color: rgb(97, 228, 80);
-    border-radius: 20px;
+    background-color: rgb(57, 136, 156);
+    border-radius: 50px;
     padding: 20px 40px;
     box-shadow: 0.3em 0.3em 0.3em 0.3em;
 }
@@ -32,7 +33,7 @@ form input, form label, form button {
     display: block;
     width: 100%;
     margin-bottom: 10px;
-    color: rgb(187, 255, 185);
+    color: rgb(0, 0, 0);
     border-radius: 5px;
 }
 
@@ -44,8 +45,8 @@ form input {
 
 form button {
     border: none;
-    background-color: rgb(255, 255, 255);
-    color: ghostwhite;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 18px;
     height: 50px;
     cursor: pointer;

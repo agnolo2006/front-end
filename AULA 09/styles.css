@@ -1,0 +1,13 @@
+body{
+    display: grid;
+    background-color: rgb(128, 243, 228);
+    grid-template-rows: 82vh 12vh 5vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: chocolate;
+    
+}
